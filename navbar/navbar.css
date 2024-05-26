@@ -1,0 +1,63 @@
+:root {
+  --primary-color: #effd94;
+  --bg-color: #202020;
+  --font-stack: "Roboto", sans-serif;
+  --font-size: 1.2rem;
+  --spacing: 15px;
+}
+
+body {
+  font-family: var(--font-stack);
+  margin: 0;
+}
+
+header {
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 5rem;
+  height: 5rem;
+  background-color: var(--bg-color);
+}
+
+header div,
+nav a,
+nav li {
+  font-size: var(--font-size);
+  color: var(--primary-color);
+}
+
+nav {
+  a {
+    text-decoration: none;
+  }
+  li {
+    list-style-type: none;
+    margin-right: var(--spacing);
+  }
+  li:last-child {
+    margin-right: 0;
+  }
+  ul {
+    display: flex;
+    align-items: center;
+  }
+}
+
+ul button {
+  background-color: var(--primary-color);
+  font-size: var(--font-size);
+  width: 100px;
+  height: 40px;
+  color: black;
+  border-radius: 5px;
+  cursor: pointer;
+  border: 0;
+  padding: 0;
+}
+
+main {
+  margin-left: 5rem;
+}

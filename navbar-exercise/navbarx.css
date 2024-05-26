@@ -1,0 +1,39 @@
+:root {
+  /* set up the global variables here such as color, background color, font type, font color, spacing */
+}
+
+body {
+  /* set up the font family and margin */
+}
+
+header {
+  /* set up the header styles */
+}
+
+header div,
+nav a,
+nav li {
+  /* set up the font size and color for the header and nav elements */
+}
+
+nav {
+  a {
+  }
+  li {
+    /* set up the list style and margin right */
+  }
+  li:last-child {
+    /* set up the margin right for the last child */
+  }
+  ul {
+    /* set up the display and align items for the ul */
+  }
+}
+
+ul button {
+  /* set up the button styles */
+}
+
+main {
+  /* set up the margin left */
+}
